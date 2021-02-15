@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from keras.models import model_from_json
 
 from abc import abstractmethod
+import tensorflow as tf
 
 
 def save(model, model_name, path):
